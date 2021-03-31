@@ -1,0 +1,25 @@
+.dialog{
+    width: 300px;
+    border: 5px solid var(--secondary);
+    border: 5px solid var(--primary);
+    position: fixed;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 100;
+
+    &__heading{
+        font-size: 32px;
+    }
+
+    &__button{
+        background-color: var(--secondary);
+        color: var(--accent);
+
+        &:focus,&:hover{
+            background-color: var(--secondary);
+            color: var(--accent);
+        }
+    }
+}

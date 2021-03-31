@@ -1,0 +1,28 @@
+.vertical-center{
+    display: flex;
+    align-items: center;
+}
+
+.no-padding{
+    padding: 0;
+}
+
+.center-text{
+    text-align: center;
+} 
+
+.full-height-wrapper{
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    background-color: opacify($color: #0c022b9f, $amount: 0.5);
+}
+
+.hero-container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

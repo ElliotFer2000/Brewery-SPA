@@ -1,0 +1,7 @@
+@mixin  button {
+    background-color: var(--primary);
+
+    &:hover,&:focus{
+        background-color: var(--primary);
+    }
+}
